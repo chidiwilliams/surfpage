@@ -3,12 +3,113 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Surfpage</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		header {
+			height: 40px;
+			/*background-color: #eee;*/
+			padding: 20px;
+		}
+		
+		.header-title {
+			float: left;
+			font-size: 24px;
+		}
+
+		.menu {
+			float: right;
+			font-size: 14px;
+	    display: grid;
+	    grid-template-columns: auto auto;
+	    align-items: center;
+	    margin-top: 6px;
+		}
+
+		.menu .item {
+	    margin-left: 40px;
+		}
+
+		.menu .btn {
+			background-color: #000;
+			padding: 5px 18px;
+			border-radius: 18px;
+			color: #fff;
+		}
+
+		.menu a {
+			display: block;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		.master {
+			display: grid;
+			grid-template-columns: 1fr minmax(auto, 800px) 1fr;
+			grid-template-rows: auto;
+			grid-template-areas: ". body .";
+			margin-top: 40px;
+		}
+
+		.child {
+			grid-area: body;
+			justify-self: center;
+		}
+
+		.jumbo-heading {
+			text-align: center;
+			font-size: 48px;
+			max-width: 640px;
+			color: #1AC4EB;
+			margin: 0 auto 25px auto;
+		}
+
+		.jumbo-sub {
+			text-align: center;
+			max-width: 600px;
+			font-size: 18px;
+			color: #9AA9BC;
+			margin: 0 auto 25px auto;
+			line-height: 26px;
+		}
+
+		.jumbo-btn {
+			text-align: center;
+			margin: 30px auto;
+		}
+
+		.jumbo-btn a {
+			background-color: #333;
+			padding: 5px 40px;
+			border-radius: 18px;
+			color: #fff;
+			font-size: 18px;
+		}
+	</style>
 </head>
 <body>
-	<div class="container container-fluid">
-		klqned
+	<div class="container">
+		<header>
+			<div class="header-title">Surfpage.</div>
+			<div class="menu">
+				<div class="item"><a href=".">Home</a></div>
+				<div class="item"><a href="." class="btn">Partner with us</a></div>
+			</div>
+			<div class="clear"></div>
+		</header>
 	</div>
-	<script src="js/bootstrap.min.js"></script>
+
+	<div class="container">
+		<div class="master">
+			<div class="child">
+				<div class="jumbo-heading">Get your stories and voice out to an audience that cares</div>
+				<div class="jumbo-sub">Clicks and views are important to any brand with an online presence, we believe having an engaging audience is more important.</div>
+				<div class="jumbo-btn"><a href=".">Partner with us</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
 </body>
 </html>

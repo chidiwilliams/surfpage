@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'larsseit-bold';
+  src: url('../fonts/Larsseit-Bold.woff') format('woff'),
+       url('../fonts/Larsseit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'larsseit';
+  src: url('../fonts/Larsseit.woff') format('woff'),
+       url('../fonts/Larsseit.ttf') format('truetype');
+}
+
+html, body {
+	margin: 0;
+	font-family: Larsseit;
+	font-size: 18px;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
