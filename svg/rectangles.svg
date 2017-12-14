@@ -1,0 +1,18 @@
+<svg width="1031" height="541" viewBox="0 0 1031 541" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Pattern</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1475 68)">
+<g id="Pattern">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="matrix(0.75471 0.656059 -0.656059 0.75471 1172.8 -1323)" fill="#F5F9FF"/>
+</g>
+<g id="Rectangle Copy" opacity="0.356601">
+<use xlink:href="#path1_fill" transform="matrix(0.75471 0.656059 -0.656059 0.75471 1590.8 -1090)" fill="#E1ECF9"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 100C 0 44.7715 44.7715 0 100 0L 1325 0C 1380.23 0 1425 44.7715 1425 100L 1425 924C 1425 979.228 1380.23 1024 1325 1024L 100 1024C 44.7715 1024 0 979.228 0 924L 0 100Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 100C 0 44.7715 44.7715 0 100 0L 1167 0C 1222.23 0 1267 44.7715 1267 100L 1267 924C 1267 979.228 1222.23 1024 1167 1024L 100 1024C 44.7715 1024 0 979.228 0 924L 0 100Z"/>
+</defs>
+</svg>
