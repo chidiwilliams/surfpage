@@ -10,7 +10,7 @@
        url('../fonts/Larsseit.ttf') format('truetype');
 }
 
-html, body {
+html {
 	margin: 0;
 	font-family: Larsseit;
 	font-size: 18px;
@@ -18,8 +18,12 @@ html, body {
 }
 
 body {
-	background: url("svg/www.svg") no-repeat top left;
-  background-size: contain;
+	background: url("../svg/rectangles.svg") no-repeat top left;
+  background-size: 70%;
+	margin: 0;
+	font-family: Larsseit;
+	font-size: 18px;
+	color: #333;
 }
 
 a {
