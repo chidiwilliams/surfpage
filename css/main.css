@@ -18,7 +18,7 @@ html, body {
 }
 
 body {
-	background: url(rectangles.svg) no-repeat top left;
+	background: url("svg/www.svg") no-repeat top left;
   background-size: contain;
 }
 
